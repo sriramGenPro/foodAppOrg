@@ -1,0 +1,145 @@
+/* Signup.css */
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: yellow;
+}
+
+
+
+
+.white-section {
+    flex: 1; /* Take up half of the container */
+    background-color: white;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 20px;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bold;
+    color: #183b56;
+    text-align: center;
+    
+    margin: 20px;
+    
+    
+   
+   
+
+}
+
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Logo styling */
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Adjust as needed */
+}
+
+/* Front image styling with box shadow */
+.frontimage {
+    text-align: center;
+    max-width: 35%;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+    padding: 0px; 
+    border-radius: 10px;/* Remove any padding */
+    
+}
+
+
+/* Image styling */
+.frontimage img {
+    width: 100%; /* Ensure the image fills its container */
+    max-height: 200%;
+    margin-top: 20px; /* Adjust as needed */
+}
+.signup {
+    max-width: 40%;
+    height: 200px;
+    text-align: center;
+   
+
+    padding: 10px;
+    
+    border: 1px solid black;
+    border-radius: 70px;
+    /* Add box shadow */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .signup img {
+    width: 50%;
+    max-height: 100%;
+    margin-top: 20px;
+ 
+    cursor: pointer;
+    
+  }
+  
+  .signup h1 {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .signup p {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  
+  .signup button {
+    color: white;
+    border-radius: 70px;
+  
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 70px;
+    margin-top: 20px;
+    width: 70%;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+
+  }
+  .signup button:hover{
+    box-shadow: 0px 0px 15px rgba(253, 252, 252, 0.3); /* More prominent shadow */
+
+  }
+  
+  /* Add hover effect for the signup element */
+  .signup:hover {
+    /* Increase box-shadow for hover effect */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+  }
+  
+
+/* Media queries for responsiveness */
+
+
+
+/* Improve text contrast */
+
+
+
+
+
+
+
